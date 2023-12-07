@@ -1,0 +1,79 @@
+
+img {
+    width: 200px;
+}
+
+button {
+    border-radius: 4px;
+    background-color: darkblue;
+    color: lightblue;
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.notOwned{
+    background-color: darkblue;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: darkblue;
+
+        .no {
+            background-color: lightblue;
+            color: darkblue;
+        }
+
+}
+
+.Owned{
+    background-color: darkblue;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: darkblue;
+    opacity: 30%;
+        
+        .yes {
+            background-color: lightblue;
+            color: darkblue;
+        }
+
+}
+
+.Wishlist{
+    background-color: darkblue;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 4px;
+    border-color: greenyellow;
+    border-style: solid;
+
+        .wish {
+            background-color: greenyellow;
+            color: darkblue;
+        }
+
+}
